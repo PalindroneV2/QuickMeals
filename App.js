@@ -11,8 +11,8 @@ const App = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="Home" component={HomeScreen} />
-        <Stack.Screen name="Details" component={RestScreen} />
+        <Stack.Screen name="QuickMeals" component={HomeScreen} />
+        <Stack.Screen name="Menu" component={RestScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );

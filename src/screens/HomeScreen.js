@@ -56,7 +56,7 @@ const HomeScreen = ({navigation}) => {
                 renderItem={({ item }) => {
                     return (
                         <TouchableOpacity
-                            onPress={() => navigation.navigate('Details')}
+                            onPress={() => navigation.navigate('Menu')}
                         >
                             <RestCard info={item} />
                         </TouchableOpacity>
