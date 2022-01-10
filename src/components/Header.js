@@ -17,7 +17,6 @@ const styles = StyleSheet.create({
         height: 90,
         backgroundColor: '#a29bfe',
         justifyContent: 'flex-end',
-        paddingBottom: 20,
         alignItems: 'center',
     },
     labelStyle: {

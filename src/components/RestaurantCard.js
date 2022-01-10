@@ -5,7 +5,7 @@ import IconLabel from "./IconLabel";
 const iconColor = '#6c5ce7'
 
 const RestCard = ({ info }) => {
-    const { name, categories, deliveryTime, distance, image } = info;
+    const { restname, categories, deliveryTime, distance, image } = info;
     return (
         <View style={styles.ListContainer}>
             <View style={styles.CardContainer}>
@@ -15,7 +15,7 @@ const RestCard = ({ info }) => {
                 />
                 <View style={styles.infoStyle}>
                     <Text style={styles.RestTitle}>
-                        {name}
+                        {restname}
                     </Text>
                     <Text style={styles.CategoryStyle}>
                         {categories}
